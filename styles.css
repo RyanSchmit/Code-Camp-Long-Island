@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+  width: 5%;
+  height: 5%;
+  float: left;
+}
+
+.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+a:hover {
+    background-color: blue;
+}
+
+.lesbtn {
+  background-color: blue;
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.lesbtn:hover {
+  background-color: lightgreen;
+  color: black;
+}
+
+.home {
+  background-color: black;
+}
+
+.hometxt {
+  padding-top: 80pt;
+  display: inline-block;
+  color: white;
+  padding-bottom: 400pt;
+  margin-left: 30pt;
+}
+
+.codeimg {
+  float: right;
+  display:inline-block;
+  width: 30%;
+  height: 10%;
+  padding-top: 100pt;
+  padding-right: 30pt;
+}
+
+.about {
+  padding-bottom: 400pt;
+}
