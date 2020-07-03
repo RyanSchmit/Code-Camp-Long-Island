@@ -3,6 +3,8 @@ body {
     padding: 0;
 }
 
+/* Navigation bar */
+
 .navbar {
   list-style-type: none;
   margin: 0;
@@ -42,17 +44,30 @@ a:hover {
   margin-right: 400pt;
 }
 
+/* Homepage */
+
 .head {
   text-align: center;
+  font-size: 30pt;
   color: white;
   padding-top: 40pt;
 }
 
+.txt {
+  margin: 20pt 0;
+}
+
 .lesbtn {
   background-color: blue;
+  border: none;
   color: white;
-  cursor: pointer;
+  padding: 15px 32px;
+  text-align: center;
   text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
 }
 
 .lesbtn:hover {
@@ -60,16 +75,17 @@ a:hover {
   color: black;
 }
 
-.home {
-  background-color: black;
+#home {
+  background-color: gray;
+  padding-bottom: 260pt;
 }
 
 .hometxt {
-  padding-top: 80pt;
+  padding-top: 30pt;
+  margin-left: 40pt;
   display: inline-block;
+  font-size: 15pt;
   color: white;
-  padding-bottom: 200pt;
-  margin-left: 30pt;
 }
 
 .codeimg {
@@ -77,12 +93,14 @@ a:hover {
   display:inline-block;
   width: 30%;
   height: 10%;
-  padding-top: 100pt;
-  padding-right: 30pt;
+  padding-top: 30pt;
+  margin-right: 40pt;
 }
 
-.about {
-  padding-bottom: 500pt;
+/* About page */
+
+#about {
+  padding-bottom: 370pt;
 }
 
 .aboutH {
@@ -90,10 +108,17 @@ a:hover {
   padding-top: 50pt;
 }
 
-.team {
-  background-color: black;
+.mission {
+  padding: 20pt 50pt;
+  font-size: 20pt;
+}
+
+/* Team page */
+
+#team {
+  background-color: grey;
   color: white;
-  padding-bottom: 500pt;
+  padding-bottom: 450pt;
 }
 
 .teamH {
@@ -101,8 +126,10 @@ a:hover {
   padding-top: 50pt;
 }
 
-.contact {
-  padding-bottom: 500pt;
+/* Contact page */
+
+#contact {
+  padding-bottom: 400pt;
 }
 
 .contactH {
@@ -110,12 +137,26 @@ a:hover {
   padding-top: 50pt;
 }
 
+.inputs {
+  margin: 10pt 20pt;
+}
+
 .sendbtn {
   background-color: blue;
+  border: none;
   color: white;
+  padding: 15px 35px;
+  margin-left: 40pt;
+  margin-top: 20pt;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
 }
 
 .sendbtn:hover {
   background-color: lightgreen;
   color: black;
 }
+
