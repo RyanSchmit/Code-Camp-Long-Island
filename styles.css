@@ -118,12 +118,64 @@ a:hover {
 #team {
   background-color: grey;
   color: white;
-  padding-bottom: 450pt;
+  padding-bottom: 500pt;
 }
 
 .teamH {
   text-align: center;
   padding-top: 50pt;
+  font-size: 30pt;
+}
+
+.Ryan {
+  float: left;
+  padding-left: 100pt;
+  width: 400pt;
+}
+
+.RyanH {
+  text-align: center;
+  font-size: 20pt;
+}
+
+.Ryanimg {
+  width: 400pt;
+  height: 300pt;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+
+.Ryantxt {
+  width: 400pt;
+  font-size: 15pt;
+}
+
+.Ronald {
+  float: right;
+  width: 400pt;
+  border-radius: 50%;
+  margin-right: 100pt;
+}
+
+.RonaldH {
+  text-align: center;
+  font-size: 20pt;
+}
+
+.Ronaldtxt {
+  width: 400pt;
+  font-size: 15pt;
+}
+
+.Ronaldimg {
+  width: 400pt;
+  height: 300pt;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+
+.Github {
+  text-decoration: blue;
 }
 
 /* Contact page */
@@ -135,10 +187,12 @@ a:hover {
 .contactH {
   text-align: center;
   padding-top: 50pt;
+  font-size: 30pt;
 }
 
-.inputs {
-  margin: 10pt 20pt;
+.contactP {
+  margin: 40pt 40pt;
+  font-size: 20pt;
 }
 
 .sendbtn {
